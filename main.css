@@ -6,7 +6,6 @@
 }
 
 body {
-    display: flex;
     justify-content: center;
     align-items: center;
     background-color: #deeeff;
@@ -239,9 +238,20 @@ body {
 }
 
 
-.data_box{
+.data_box {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
+}
+
+.container__title {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #7360ff;
+    opacity: 0.6;
 }
